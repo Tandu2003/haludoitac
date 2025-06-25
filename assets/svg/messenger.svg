@@ -1,4 +1,9 @@
-<svg height="512" viewBox="0 0 176 176" width="512" xmlns="http://www.w3.org/2000/svg">
+<svg
+  height="512"
+  viewBox="0 0 176 176"
+  width="512"
+  xmlns="http://www.w3.org/2000/svg"
+>
   <g id="Layer_2" data-name="Layer 2">
     <g id="_06.messenger" data-name="06.messenger">
       <circle id="background" cx="88" cy="88" fill="#0084ff" r="88" />

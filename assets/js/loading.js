@@ -25,7 +25,12 @@
         var c = i.height();
         var h = n.width();
         var p = i.width();
-        if (u + l + f >= t && u <= t + c + f && o + h + a >= e && o <= e + p + a) {
+        if (
+          u + l + f >= t &&
+          u <= t + c + f &&
+          o + h + a >= e &&
+          o <= e + p + a
+        ) {
           if (!n.appeared) n.trigger('appear', r.data);
         } else {
           n.appeared = false;
