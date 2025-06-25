@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
-    <title>Hỗ trợ khách hàng haludoitac</title>
+    <title>TÍCH LŨY CHO TƯƠNG LAI HỌC VẤN CỦA CON haludoitac</title>
 
     <link rel="icon" href="assets/img/favicon.png" type="image/x-icon" />
 
@@ -20,15 +20,21 @@
     <link href="assets/css/font.css" rel="stylesheet" />
 
     <link rel="preload" href="assets/css/material-icons.css" as="style" />
-    <link rel="stylesheet" href="assets/css/material-icons.css" />
+    <link href="assets/css/material-icons.css" rel="stylesheet" />
 
     <script src="assets/js/jquery-min.js" type="text/javascript"></script>
 
     <script>
-      var template = 'page.ho-tro-khach-hang';
+      var template = 'article';
+    </script>
+
+    <script src="assets/js/stats.min.js"></script>
+
+    <script>
+      var ProductReviewsAppUtil = ProductReviewsAppUtil || {};
     </script>
   </head>
-  <body>
+  <body class="">
     <a class="messenger-live-face" href="#" title="messenger" target="_blank">
       <img src="assets/svg/messenger.svg" alt="icon-mes" />
     </a>
@@ -198,7 +204,7 @@
                         </div>
                       </li>
 
-                      <li class="hidden-sm hidden-xs nav-item active">
+                      <li class="hidden-sm hidden-xs nav-item">
                         <a
                           class="nav-link"
                           href="/ho-tro-khach-hang.html"
@@ -282,7 +288,7 @@
                         </ul>
                       </li>
 
-                      <li class="hidden-lg hidden-md nav-item active">
+                      <li class="hidden-lg hidden-md nav-item">
                         <a
                           class="nav-link"
                           href="/ho-tro-khach-hang.html"
@@ -376,7 +382,7 @@
                         </ul>
                       </li>
 
-                      <li class="nav-item active">
+                      <li class="nav-item">
                         <a
                           class="nav-link"
                           href="/ho-tro-khach-hang.html"
@@ -414,7 +420,7 @@
               <div class="col-lg-4 col-md-4 text-right box-relative">
                 <div class="inner-box">
                   <div class="search">
-                    <div class="header_search search_form">
+                    <div class="header_search search_form" onclick="">
                       <span class="icon-click-search"
                         ><i class="fa fa-search"></i
                       ></span>
@@ -427,6 +433,7 @@
                         <input
                           type="search"
                           name="q"
+                          value=""
                           placeholder="Tìm kiếm... "
                           class="input-group-field st-default-search-input search-text"
                           autocomplete="off"
@@ -457,7 +464,15 @@
             </li>
 
             <li>
-              <strong><span>Hỗ trợ khách hàng</span></strong>
+              <a href="/tich-luy.html" title="Tích luỹ"
+                ><span>Tích luỹ</span></a
+              >
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </li>
+            <li>
+              <strong
+                ><span>TÍCH LŨY CHO TƯƠNG LAI HỌC VẤN CỦA CON</span></strong
+              >
             </li>
           </ul>
         </div>
@@ -467,108 +482,432 @@
         <div class="row">
           <div class="col-xs-12 a-left">
             <div class="breadcrumb-container">
-              <div class="title-page">Hỗ trợ khách hàng</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="page">
-      <div class="container">
-        <div class="page-title category-title">
-          <h1 class="title-head hidden"><a href="#">Hỗ trợ khách hàng</a></h1>
-        </div>
-        <div class="content-page rte">
-          <div class="title-page space-30 text-center">
-            <h3></h3>
-            <p></p>
-          </div>
-          <div class="row padding-tb-50 flex-wrap box-page-help">
-            <div class="col-sm-6 col-lg-4 item-wrap">
-              <div class="item">
-                <h2 class="title-sp">
-                  <a href="/nop-ho-so-truc-tuyen.html" target="_blank"
-                    >ĐIỀU CHỈNH HỒ SƠ</a
-                  >
-                </h2>
-                <div class="desc">
-                  <p>Điều chỉnh các thông tin hợp đồng bảo hiểm</p>
-                </div>
-                <div class="cate-img">
-                  <img
-                    data-thumb="original"
-                    original-height="120"
-                    original-width="120"
-                    src="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/images_ho_tro1.png?1705464728996"
-                  />
-                </div>
-                <div class="btn-viewmore flex flex-wrap flex-content-center">
-                  <a
-                    href="/nop-ho-so-truc-tuyen.html"
-                    target="_blank"
-                    title="Tìm hiểu thêm"
-                    >Tìm hiểu thêm</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4 item-wrap">
-              <div class="item">
-                <h2 class="title-sp">
-                  <a href="/faqs.html" target="_blank">CÂU HỎI THƯỜNG GẶP</a>
-                </h2>
-                <div class="desc">
-                  <p>Tham khảo các câu hỏi thường gặp</p>
-                </div>
-                <div class="cate-img">
-                  <img
-                    data-thumb="original"
-                    original-height="120"
-                    original-width="120"
-                    src="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/images_ho_tro2.png?1705464728996"
-                  />
-                </div>
-                <div class="btn-viewmore flex flex-wrap flex-content-center">
-                  <a href="/faqs.html" target="_blank" title="Tìm hiểu thêm"
-                    >Tìm hiểu thêm</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4 item-wrap">
-              <div class="item">
-                <h2 class="title-sp">
-                  <a href="/dong-phi-bao-hiem.html" target="_blank"
-                    >ĐÓNG PHÍ BẢO HIỂM</a
-                  >
-                </h2>
-                <div class="desc">
-                  <p>Tham khải thông tin về phí bảo hiểm</p>
-                </div>
-                <div class="cate-img">
-                  <img
-                    data-thumb="original"
-                    original-height="120"
-                    original-width="120"
-                    src="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/images_ho_tro3.png?1705464728996"
-                  />
-                </div>
-                <div class="btn-viewmore flex flex-wrap flex-content-center">
-                  <a
-                    href="/dong-phi-bao-hiem.html"
-                    target="_blank"
-                    title="Tìm hiểu thêm"
-                    >Tìm hiểu thêm</a
-                  >
-                </div>
+              <div class="title-page">
+                TÍCH LŨY CHO TƯƠNG LAI HỌC VẤN CỦA CON
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <div class="container article-wraper">
+      <div class="row">
+        <section
+          class="right-content col-lg-9 col-md-9 col-md-push-3 col-lg-push-3"
+        >
+          <article
+            class="article-main"
+            itemscope
+            itemtype="http://schema.org/Article"
+          >
+            <div
+              class="hidden"
+              itemprop="publisher"
+              itemscope
+              itemtype="https://schema.org/Organization"
+            >
+              <div
+                itemprop="logo"
+                itemscope
+                itemtype="https://schema.org/ImageObject"
+              >
+                <img
+                  src="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/logo.png?1705464728996"
+                  alt="haludoitac"
+                />
+                <meta
+                  itemprop="url"
+                  content="https://bizweb.dktcdn.net/100/347/311/themes/762254/assets/logo.png?1705464728996"
+                />
+                <meta itemprop="width" content="200" />
+                <meta itemprop="height" content="49" />
+              </div>
+              <meta itemprop="name" content="haludoitac" />
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12">
+                <h1 class="title-head" itemprop="name">
+                  TÍCH LŨY CHO TƯƠNG LAI HỌC VẤN CỦA CON
+                </h1>
+                <div class="postby">
+                  <span
+                    >Đăng bởi <b>Nguyễn Hữu Mạnh</b> vào lúc 14/03/2019</span
+                  >
+                </div>
+                <div class="article-details">
+                  <div class="article-image hidden">
+                    <a href="/tich-luy-cho-tuong-lai-hoc-van-cua-con.html">
+                      <img
+                        itemprop="image"
+                        class="img-fluid"
+                        src="https://bizweb.dktcdn.net/100/347/311/articles/tich-luy-tuong-lai-600x377.jpg?v=1552549862577"
+                        alt="TÍCH LŨY CHO TƯƠNG LAI HỌC VẤN CỦA CON"
+                      />
+                    </a>
+                  </div>
+                  <div class="article-content" itemprop="description">
+                    <div class="rte">
+                      <p>
+                        Một số người chưa tin là có thiên thần. Là bởi vì họ
+                        chưa gặp con tôi thôi"<br />
+                        Đối với người làm cha làm mẹ, đứa con là món quà tuyệt
+                        vời nhất mà tạo hóa đã dành cho họ. Khoảnh khắc đón nhận
+                        sinh linh nhỏ bé đến với thế giới là khoảnh khắc không
+                        bao giờ có thể quên với mỗi người. Và kể từ giây phút
+                        đó, cha mẹ bắt đầu bước vào một hành trình đầy mới mẻ và
+                        thú vị - một hành trình đong đầy những yêu thương.<br />
+                        Thấu hiểu và trân trọng những giá trị nhân văn đó, Halu
+                        sẵn lòng chia sẻ cùng bạn một kế hoạch bảo vệ và tài
+                        chính vững vàng nhất cho đứa con thân yêu của mình trên
+                        từng chặng đường của hành trình kiến tạo nhân cách và
+                        một tương lai tươi sáng bằng hai sản phẩm Phát Lộc Đăng
+                        Khoa và Phát Lộc Khôi Nguyên.&nbsp;
+                      </p>
+                      <h2>QUYỀN LỢI BẢO HIỂM</h2>
+                      <p>
+                        <strong
+                          ><strong
+                            ><img
+                              alt=""
+                              src="http://preview6534.canhcam.com.vn/Data/Sites/1/media/blog/icon4.png"
+                            />&nbsp;</strong
+                          >Quyền lợi Quỹ học vấn</strong
+                        ><br />
+                        Nhận tiền mặt định kỳ tại các mốc học tập của con trẻ
+                        (tương đương 30%, 20%, 20%, 20%, 40% Số tiền bảo hiểm)
+                        trong tương lai khi trẻ đạt 18, 19, 20, 21, 22 tuổi; và
+                        đảm bảo chi phí học đại học và khoản hỗ trợ tài chính
+                        khởi nghiệp.<br />
+                        Hoặc nhận một lần trọn gói số tiền tương đương 130% Số
+                        tiền bảo hiểm + Lãi tích lũy (theo lãi suất đầu tư thực
+                        tế Halu thực hiện được hàng năm) khi hợp đồng đáo hạn.
+                        Đây sẽ là khoản hỗ trợ tài chính giá trị cho con trẻ khi
+                        khởi nghiệp.<br />
+                        <strong
+                          ><strong
+                            ><img
+                              alt=""
+                              src="http://preview6534.canhcam.com.vn/Data/Sites/1/media/blog/icon4.png"
+                            />&nbsp;</strong
+                          >Quyền lợi duy trì hợp đồng</strong
+                        ><br />
+                        Khoản duy trì hợp đồng với số tiền không đổi bằng 2% Số
+                        tiền bảo hiểm mỗi năm (từ năm thứ 3 của hợp đồng cho đến
+                        hết thời hạn đóng phí);<br />
+                        Khoản duy trì hợp đồng được tích lũy và gia tăng giá trị
+                        theo lãi suất đầu tư thực tế mà Halu thực hiện hàng năm;
+                        được trả một lần khi hợp đồng đáo hạn hoặc khi Người
+                        được bảo hiểm tử vong, bị thương tật toàn bộ vĩnh viễn
+                        hoặc mắc bệnh ung thư; giúp gia tăng khoản tiền tiết
+                        kiệm ý nghĩa dành cho trẻ trong tương lai<br />
+                        <strong
+                          ><strong
+                            ><img
+                              alt=""
+                              src="http://preview6534.canhcam.com.vn/Data/Sites/1/media/blog/icon4.png"
+                            />&nbsp;</strong
+                          >Quyền lợi bảo vệ người trụ cột</strong
+                        ><br />
+                        Tham gia Phát Lộc Khôi Nguyên, nếu có rủi ro xảy ra với
+                        cha/mẹ, gia đình sẽ nhận được các khoản hỗ trợ tài chính
+                        như sau:
+                      </p>
+                      <p>
+                        Tử vong/thương tật toàn bộ vĩnh viễn/ung thư:&nbsp; Nhận
+                        100% Số tiền bảo hiểm + Quyền lợi duy trì hợp đồng tích
+                        lũy (nếu có)
+                      </p>
+                      <p>
+                        Tử vong/thương tật toàn bộ vĩnh viễn do tai nạn: Nhận
+                        200% Số tiền bảo hiểm + Quyền lợi duy trì hợp đồng (nếu
+                        có)
+                      </p>
+                      <p>
+                        Nếu cha/mẹ không may tử vong, các quyền lợi Quỹ học vấn
+                        vẫn đảm bảo được chi trả.<br />
+                        Nếu cha/mẹ gặp rủi ro thương tật toàn bộ vĩnh viễn, hoặc
+                        ung thư, hợp đồng chính được miễn phí còn lại phải đóng
+                        và đảm bảo đầy đủ các quyền lợi Quỹ học vấn cho trẻ ở
+                        tuổi trưởng thành.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-12">
+                <div class="social-media" data-permalink="#">
+                  <label>Chia sẻ: </label>
+
+                  <a
+                    href="#"
+                    class="share-facebook"
+                    title="Chia sẻ lên Facebook"
+                  >
+                    <i class="fa fa-facebook-official"></i>
+                  </a>
+
+                  <a href="#" class="share-twitter" title="Chia sẻ lên Twitter">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+
+                  <a href="#" class="share-google" title="+1">
+                    <i class="fa fa-google-plus"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-12 space-30">
+                <div class="related-blog-title">
+                  <h2>
+                    <a href="tich-luy.html" title="Tin liên quan"
+                      >Tin liên quan</a
+                    >
+                  </h2>
+                </div>
+                <div class="list-blogs related-blogs">
+                  <article class="blog-item blog-item-list hidden">
+                    <h3 class="blog-item-name">
+                      <i class="fa fa-caret-right"></i>
+                      <a
+                        href="/tich-luy-cho-tuong-lai-hoc-van-cua-con.html"
+                        title="TÍCH LŨY CHO TƯƠNG LAI HỌC VẤN CỦA CON"
+                        >TÍCH LŨY CHO TƯƠNG LAI HỌC VẤN CỦA CON</a
+                      >
+                    </h3>
+                  </article>
+                </div>
+              </div>
+
+              <div class="col-xs-12">
+                <form
+                  method="post"
+                  action="/posts/tich-luy-cho-tuong-lai-hoc-van-cua-con/comments"
+                  id="article_comments"
+                  accept-charset="UTF-8"
+                >
+                  <input
+                    name="FormType"
+                    type="hidden"
+                    value="article_comments"
+                  /><input name="utf8" type="hidden" value="true" /><input
+                    type="hidden"
+                    id="Token-1503e5c6bf6d49d59db8d2d2554550a4"
+                    name="Token"
+                  />
+                  <script src="https://www.google.com/recaptcha/api.js?render=6Ldtu4IUAAAAAMQzG1gCw3wFlx_GytlZyLrXcsuK"></script>
+                  <script>
+                    grecaptcha.ready(function () {
+                      grecaptcha
+                        .execute('6Ldtu4IUAAAAAMQzG1gCw3wFlx_GytlZyLrXcsuK', {
+                          action: 'article_comments',
+                        })
+                        .then(function (token) {
+                          document.getElementById(
+                            'Token-1503e5c6bf6d49d59db8d2d2554550a4',
+                          ).value = token;
+                        });
+                    });
+                  </script>
+
+                  <div class="col-lg-12">
+                    <div class="form-coment margin-bottom-30">
+                      <div class="row">
+                        <div class="">
+                          <h5 class="title-form-coment">
+                            VIẾT BÌNH LUẬN CỦA BẠN:
+                          </h5>
+                        </div>
+                        <fieldset
+                          class="form-group col-xs-12 col-sm-12 col-md-12"
+                        >
+                          <input
+                            placeholder="Họ tên"
+                            type="text"
+                            class="form-control form-control-lg"
+                            value=""
+                            id="full-name"
+                            name="Author"
+                            required
+                          />
+                        </fieldset>
+                        <fieldset
+                          class="form-group col-xs-12 col-sm-12 col-md-12"
+                        >
+                          <input
+                            placeholder="Email"
+                            type="email"
+                            class="form-control form-control-lg"
+                            value=""
+                            id="email"
+                            name="Email"
+                            required
+                          />
+                        </fieldset>
+                        <fieldset
+                          class="form-group col-xs-12 col-sm-12 col-md-12"
+                        >
+                          <textarea
+                            placeholder="Nội dung"
+                            class="form-control form-control-lg"
+                            id="comment"
+                            name="Body"
+                            rows="6"
+                            required
+                          ></textarea>
+                        </fieldset>
+                        <div>
+                          <button
+                            type="submit"
+                            class="btn btn-primary"
+                            onclick="return alert('Cảm ơn bạn đã gửi bình luận. Chúng tôi sẽ phản hồi sớm nhất có thể.');"
+                          >
+                            Gửi
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <aside
+          class="left left-content col-lg-3 col-md-3 col-md-pull-9 col-lg-pull-9"
+        >
+          <aside class="aside-item collection-category">
+            <div class="categories-box">
+              <ul class="lv1">
+                <li class="nav-item nav-items">
+                  <a href="/gioi-thieu.html" title="Giới thiệu"> Giới thiệu</a>
+                </li>
+
+                <li class="nav-item nav-items">
+                  <a href="/san-pham.html" class="nav-link" title="Sản phẩm">
+                    Sản phẩm
+                  </a>
+                  <span class="open-close">
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  </span>
+                  <ul class="lv2">
+                    <li class="">
+                      <a class="nav-link" href="/dau-tu.html" title="Đầu tư">
+                        Đầu tư
+                      </a>
+                    </li>
+
+                    <li class="">
+                      <a
+                        class="nav-link"
+                        href="/tich-luy.html"
+                        title="Tích luỹ"
+                      >
+                        Tích luỹ
+                      </a>
+                    </li>
+
+                    <li class="">
+                      <a class="nav-link" href="/bao-ve.html" title="Bảo vệ">
+                        Bảo vệ
+                      </a>
+                    </li>
+
+                    <li class="">
+                      <a class="nav-link" href="/huu-tri.html" title="Hưu trí">
+                        Hưu trí
+                      </a>
+                    </li>
+
+                    <li class="">
+                      <a
+                        class="nav-link"
+                        href="/danh-cho-doanh-nghiep.html"
+                        title="Dành cho doanh nghiệp"
+                      >
+                        Dành cho doanh nghiệp
+                      </a>
+                    </li>
+
+                    <li class="">
+                      <a
+                        class="nav-link"
+                        href="/bao-hiem-lien-ket-ngan-hang.html"
+                        title="Bảo hiểm liên kế ngân hàng"
+                      >
+                        Bảo hiểm liên kế ngân hàng
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item nav-items">
+                  <a href="/ho-tro-khach-hang.html" title="Hỗ trợ khách hàng">
+                    Hỗ trợ khách hàng</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </aside>
+
+          <div class="aside-item">
+            <div class="aside-title">
+              <h2 class="title-head margin-top-0">
+                <a href="/tich-luy.html" title="Bài viết liên quan">
+                  <span>Bài viết liên quan</span>
+                </a>
+              </h2>
+            </div>
+            <div class="list-blogs">
+              <article class="blog-item blog-item-list">
+                <div class="blog-item-thumbnail">
+                  <a
+                    href="/tich-luy-cho-tuong-lai-hoc-van-cua-con.html"
+                    title="TÍCH LŨY CHO TƯƠNG LAI HỌC VẤN CỦA CON"
+                  >
+                    <picture>
+                      <img
+                        src="//bizweb.dktcdn.net/thumb/small/100/347/311/articles/tich-luy-tuong-lai-600x377.jpg?v=1552549862577"
+                        style="max-width: 100%"
+                        class="img-responsive"
+                        alt="TÍCH LŨY CHO TƯƠNG LAI HỌC VẤN CỦA CON"
+                      />
+                    </picture>
+                  </a>
+                </div>
+                <div class="blog-info">
+                  <h3 class="blog-item-name">
+                    <a
+                      href="/tich-luy-cho-tuong-lai-hoc-van-cua-con.html"
+                      title="TÍCH LŨY CHO TƯƠNG LAI HỌC VẤN CỦA CON"
+                      >TÍCH LŨY CHO TƯƠNG LAI HỌC VẤN CỦA CON</a
+                    >
+                  </h3>
+                  <div class="post-time">14/03/2019</div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <aside class="aside-item">
+            <div class="aside-content banner-sidebar">
+              <a href="#" title="Banner quảng cáo">
+                <img
+                  class="img-responsive center-block"
+                  src="assets/svg/loading.svg"
+                  data-lazyload="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/aside_banner2.png?1705464728996"
+                  alt="Banner quảng cáo"
+                />
+              </a>
+            </div>
+          </aside>
+        </aside>
+      </div>
+    </div>
+    <div class="ab-module-article-mostview"></div>
+    <input class="abbs-article-id" type="hidden" data-article-id="1446130" />
 
     <div class="bizweb-product-reviews-module"></div>
 
@@ -593,7 +932,6 @@
               height="1em"
               viewBox="0 0 512 512"
             >
-              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <path
                 d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"
               ></path>
@@ -609,7 +947,6 @@
               height="1em"
               viewBox="0 0 512 512"
             >
-              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <path
                 d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"
               ></path>
@@ -625,7 +962,6 @@
               height="1em"
               viewBox="0 0 512 512"
             >
-              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <path
                 d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"
               ></path>
@@ -641,7 +977,6 @@
               height="1em"
               viewBox="0 0 512 512"
             >
-              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <path
                 d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"
               ></path>
@@ -657,7 +992,6 @@
               height="1em"
               viewBox="0 0 512 512"
             >
-              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <path
                 d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"
               ></path>
@@ -804,6 +1138,7 @@
             >
               <input
                 type="email"
+                value=""
                 placeholder="Email của bạn"
                 name="EMAIL"
                 id="mail"
@@ -929,8 +1264,11 @@
       </div>
     </footer>
 
+    <link rel="preload" as="script" href="assets/js/loading.js" />
     <script src="assets/js/loading.js" type="text/javascript"></script>
+    <link rel="preload" as="script" href="assets/js/plugin-date.js" />
     <script src="assets/js/plugin-date.js" type="text/javascript"></script>
+    <link rel="preload" as="script" href="assets/js/main.js" />
     <script src="assets/js/main.js" type="text/javascript"></script>
   </body>
 </html>

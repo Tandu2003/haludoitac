@@ -9,34 +9,22 @@
     <title>Đầu tư haludoitac</title>
     <link rel="icon" href="assets/img/favicon.png" type="image/x-icon" />
 
+    <link rel="preload" href="assets/css/base.css" as="style" />
+    <link rel="preload" href="assets/css/style.css" as="style" />
+
     <link rel="stylesheet" href="assets/css/base.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
 
+    <link rel="preload" href="assets/css/font.css" as="style" />
     <link href="assets/css/font.css" rel="stylesheet" />
 
+    <link rel="preload" href="assets/css/material-icons.css" as="style" />
     <link rel="stylesheet" href="assets/css/material-icons.css" />
 
     <script src="assets/js/jquery-min.js" type="text/javascript"></script>
 
     <script>
       var template = 'blog';
-    </script>
-
-    <script>
-      var Bizweb = Bizweb || {};
-      Bizweb.store = 'haludoitac.mysapo.net';
-      Bizweb.id = 347311;
-      Bizweb.theme = { id: 762254, name: 'HaluDoitac-NangCap', role: 'main' };
-      Bizweb.template = 'blog';
-      if (!Bizweb.fbEventId)
-        Bizweb.fbEventId = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(
-          /[xy]/g,
-          function (c) {
-            var r = (Math.random() * 16) | 0,
-              v = c == 'x' ? r : (r & 0x3) | 0x8;
-            return v.toString(16);
-          },
-        );
     </script>
   </head>
   <body>
@@ -85,8 +73,8 @@
                 <div class="logo">
                   <a href="/" class="logo-wrapper" title="haludoitac">
                     <img
-                      src="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/loading.svg?1705464728996"
-                      data-lazyload="//bizweb.dktcdn.net/thumb/medium/100/347/311/themes/762254/assets/logo.png?1705464728996"
+                      src="assets/svg/loading.svg"
+                      data-lazyload="assets/img/logo.png"
                       alt="haludoitac"
                     />
                   </a>
@@ -94,10 +82,7 @@
                 <div class="main-nav">
                   <div class="hidden-lg hidden-md head-menu">
                     <a href="/" class="logo-wrapper" title="haludoitac">
-                      <img
-                        src="//bizweb.dktcdn.net/thumb/medium/100/347/311/themes/762254/assets/logo.png?1705464728996"
-                        alt="haludoitac"
-                      />
+                      <img src="assets/img/logo.png" alt="haludoitac" />
                     </a>
 
                     <div class="close-menu"><span>&times;</span></div>
@@ -189,8 +174,8 @@
                               <div class="col-md-6">
                                 <a href="#" title="mega-menu">
                                   <img
-                                    data-lazyload="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/mega-menu-images1.png?1705464728996"
-                                    src="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/loading.svg?1705464728996"
+                                    data-lazyload="assets/img/mega-menu-images1.png"
+                                    src="assets/svg/loading.svg"
                                     alt="sản phẩm"
                                     class="img-responsive"
                                   />
@@ -200,8 +185,8 @@
                               <div class="col-md-6">
                                 <a href="#" title="mega-menu">
                                   <img
-                                    data-lazyload="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/mega-menu-images2.png?1705464728996"
-                                    src="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/loading.svg?1705464728996"
+                                    data-lazyload="assets/img/mega-menu-images2.png"
+                                    src="assets/svg/loading.svg"
                                     alt="sản phẩm"
                                     class="img-responsive"
                                   />
@@ -410,13 +395,13 @@
                     <div class="box text-center">
                       <ul class="social-media">
                         <li>
-                          <a href="https://www.facebook.com/" title="facebook"
+                          <a href="#" title="facebook"
                             ><i class="fa fa-facebook"> </i
                           ></a>
                         </li>
 
                         <li>
-                          <a href="https://www.youtube.com/" title="youtube"
+                          <a href="#" title="youtube"
                             ><i class="fa fa-youtube-play"> </i
                           ></a>
                         </li>
@@ -502,7 +487,7 @@
             <section class="list-blogs blog-main">
               <article class="blog-item">
                 <div class="blog-item-thumbnail">
-                  <a href="/an-phat-hung-gia" title="AN PHÁT HƯNG GIA">
+                  <a href="/an-phat-hung-gia.html" title="AN PHÁT HƯNG GIA">
                     <picture>
                       <source
                         media="(max-width: 480px)"
@@ -545,7 +530,7 @@
                 </div>
                 <div class="blog-item-info">
                   <h3 class="blog-item-name">
-                    <a href="/an-phat-hung-gia" title="AN PHÁT HƯNG GIA"
+                    <a href="/an-phat-hung-gia.html" title="AN PHÁT HƯNG GIA"
                       >AN PHÁT HƯNG GIA</a
                     >
                   </h3>
@@ -565,7 +550,7 @@
               <article class="blog-item">
                 <div class="blog-item-thumbnail">
                   <a
-                    href="/tao-dung-tai-san-va-dau-tu-hieu-qua"
+                    href="/tao-dung-tai-san-va-dau-tu-hieu-qua.html"
                     title="TẠO DỰNG TÀI SẢN VÀ ĐẦU TƯ HIỆU QUẢ"
                   >
                     <picture>
@@ -611,7 +596,7 @@
                 <div class="blog-item-info">
                   <h3 class="blog-item-name">
                     <a
-                      href="/tao-dung-tai-san-va-dau-tu-hieu-qua"
+                      href="/tao-dung-tai-san-va-dau-tu-hieu-qua.html"
                       title="TẠO DỰNG TÀI SẢN VÀ ĐẦU TƯ HIỆU QUẢ"
                       >TẠO DỰNG TÀI SẢN VÀ ĐẦU TƯ HIỆU QUẢ</a
                     >
@@ -727,7 +712,7 @@
               <div class="list-blogs">
                 <article class="blog-item blog-item-list">
                   <div class="blog-item-thumbnail">
-                    <a href="/an-phat-hung-gia" title="AN PHÁT HƯNG GIA">
+                    <a href="/an-phat-hung-gia.html" title="AN PHÁT HƯNG GIA">
                       <picture>
                         <img
                           src="//bizweb.dktcdn.net/thumb/small/100/347/311/articles/bv.jpg?v=1552793183610"
@@ -740,7 +725,7 @@
                   </div>
                   <div class="blog-info">
                     <h3 class="blog-item-name">
-                      <a href="/an-phat-hung-gia" title="AN PHÁT HƯNG GIA"
+                      <a href="/an-phat-hung-gia.html" title="AN PHÁT HƯNG GIA"
                         >AN PHÁT HƯNG GIA</a
                       >
                     </h3>
@@ -751,7 +736,7 @@
                 <article class="blog-item blog-item-list">
                   <div class="blog-item-thumbnail">
                     <a
-                      href="/tao-dung-tai-san-va-dau-tu-hieu-qua"
+                      href="/tao-dung-tai-san-va-dau-tu-hieu-qua.html"
                       title="TẠO DỰNG TÀI SẢN VÀ ĐẦU TƯ HIỆU QUẢ"
                     >
                       <picture>
@@ -767,7 +752,7 @@
                   <div class="blog-info">
                     <h3 class="blog-item-name">
                       <a
-                        href="/tao-dung-tai-san-va-dau-tu-hieu-qua"
+                        href="/tao-dung-tai-san-va-dau-tu-hieu-qua.html"
                         title="TẠO DỰNG TÀI SẢN VÀ ĐẦU TƯ HIỆU QUẢ"
                         >TẠO DỰNG TÀI SẢN VÀ ĐẦU TƯ HIỆU QUẢ</a
                       >
@@ -783,7 +768,7 @@
                 <a href="#" title="Banner quảng cáo">
                   <img
                     class="img-responsive center-block"
-                    src="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/loading.svg?1705464728996"
+                    src="assets/svg/loading.svg"
                     data-lazyload="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/aside_banner2.png?1705464728996"
                     alt="Banner quảng cáo"
                   />
@@ -965,7 +950,7 @@
           <div class="col-md-5">
             <img
               class="img-responsive"
-              src="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/loading.svg?1705464728996"
+              src="assets/svg/loading.svg"
               data-lazyload="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/tam-nhin.png?1705464728996"
               alt="Tầm nhìn - Chiến lược phát triển"
             />
@@ -1049,7 +1034,7 @@
                 <div class="footer-widget footer-info-first">
                   <a href="/" class="logo" title="haludoitac">
                     <img
-                      src="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/loading.svg?1705464728996"
+                      src="assets/svg/loading.svg"
                       data-lazyload="//bizweb.dktcdn.net/thumb/medium/100/347/311/themes/762254/assets/logo-footer.png?1705464728996"
                       alt="haludoitac"
                     />
@@ -1065,13 +1050,13 @@
                     style="display: block"
                   >
                     <li>
-                      <a href="https://www.facebook.com/" title="facebook"
+                      <a href="#" title="facebook"
                         ><i class="fa fa-facebook"> </i
                       ></a>
                     </li>
 
                     <li>
-                      <a href="https://www.youtube.com/" title="youtube"
+                      <a href="#" title="youtube"
                         ><i class="fa fa-youtube"> </i
                       ></a>
                     </li>

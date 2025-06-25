@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
-    <title>Hỗ trợ khách hàng haludoitac</title>
+    <title>FAQs haludoitac</title>
 
     <link rel="icon" href="assets/img/favicon.png" type="image/x-icon" />
 
@@ -20,15 +20,21 @@
     <link href="assets/css/font.css" rel="stylesheet" />
 
     <link rel="preload" href="assets/css/material-icons.css" as="style" />
-    <link rel="stylesheet" href="assets/css/material-icons.css" />
+    <link href="assets/css/material-icons.css" rel="stylesheet" />
 
     <script src="assets/js/jquery-min.js" type="text/javascript"></script>
 
     <script>
-      var template = 'page.ho-tro-khach-hang';
+      var template = 'page.cau-hoi-thuong-gap';
+    </script>
+
+    <script src="assets/js/stats.min.js"></script>
+
+    <script>
+      var ProductReviewsAppUtil = ProductReviewsAppUtil || {};
     </script>
   </head>
-  <body>
+  <body class="">
     <a class="messenger-live-face" href="#" title="messenger" target="_blank">
       <img src="assets/svg/messenger.svg" alt="icon-mes" />
     </a>
@@ -198,7 +204,7 @@
                         </div>
                       </li>
 
-                      <li class="hidden-sm hidden-xs nav-item active">
+                      <li class="hidden-sm hidden-xs nav-item">
                         <a
                           class="nav-link"
                           href="/ho-tro-khach-hang.html"
@@ -282,7 +288,7 @@
                         </ul>
                       </li>
 
-                      <li class="hidden-lg hidden-md nav-item active">
+                      <li class="hidden-lg hidden-md nav-item">
                         <a
                           class="nav-link"
                           href="/ho-tro-khach-hang.html"
@@ -376,7 +382,7 @@
                         </ul>
                       </li>
 
-                      <li class="nav-item active">
+                      <li class="nav-item">
                         <a
                           class="nav-link"
                           href="/ho-tro-khach-hang.html"
@@ -414,7 +420,7 @@
               <div class="col-lg-4 col-md-4 text-right box-relative">
                 <div class="inner-box">
                   <div class="search">
-                    <div class="header_search search_form">
+                    <div class="header_search search_form" onclick="">
                       <span class="icon-click-search"
                         ><i class="fa fa-search"></i
                       ></span>
@@ -427,6 +433,7 @@
                         <input
                           type="search"
                           name="q"
+                          value=""
                           placeholder="Tìm kiếm... "
                           class="input-group-field st-default-search-input search-text"
                           autocomplete="off"
@@ -457,7 +464,7 @@
             </li>
 
             <li>
-              <strong><span>Hỗ trợ khách hàng</span></strong>
+              <strong><span>FAQs</span></strong>
             </li>
           </ul>
         </div>
@@ -467,7 +474,7 @@
         <div class="row">
           <div class="col-xs-12 a-left">
             <div class="breadcrumb-container">
-              <div class="title-page">Hỗ trợ khách hàng</div>
+              <div class="title-page">FAQs</div>
             </div>
           </div>
         </div>
@@ -476,92 +483,279 @@
     <section class="page">
       <div class="container">
         <div class="page-title category-title">
-          <h1 class="title-head hidden"><a href="#">Hỗ trợ khách hàng</a></h1>
+          <h1 class="title-head hidden"><a href="#">FAQs</a></h1>
         </div>
         <div class="content-page rte">
-          <div class="title-page space-30 text-center">
-            <h3></h3>
-            <p></p>
-          </div>
-          <div class="row padding-tb-50 flex-wrap box-page-help">
-            <div class="col-sm-6 col-lg-4 item-wrap">
-              <div class="item">
-                <h2 class="title-sp">
-                  <a href="/nop-ho-so-truc-tuyen.html" target="_blank"
-                    >ĐIỀU CHỈNH HỒ SƠ</a
+          <h3 class="text-center space-30 space-top-30">FAQs</h3>
+          <div class="panel-group page-faq space-30" id="faqAccordion">
+            <div class="panel panel-default">
+              <div
+                class="panel-heading accordion-toggle question-toggle collapsed"
+                data-parent="#faqAccordion"
+                data-target="#question2"
+                data-toggle="collapse"
+              >
+                <h4 class="panel-title">
+                  <a class="ing"
+                    >Làm thế nào để nhận hóa đơn thu phí bảo hiểm của Công
+                    ty?</a
                   >
-                </h2>
-                <div class="desc">
-                  <p>Điều chỉnh các thông tin hợp đồng bảo hiểm</p>
-                </div>
-                <div class="cate-img">
-                  <img
-                    data-thumb="original"
-                    original-height="120"
-                    original-width="120"
-                    src="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/images_ho_tro1.png?1705464728996"
-                  />
-                </div>
-                <div class="btn-viewmore flex flex-wrap flex-content-center">
-                  <a
-                    href="/nop-ho-so-truc-tuyen.html"
-                    target="_blank"
-                    title="Tìm hiểu thêm"
-                    >Tìm hiểu thêm</a
-                  >
+                </h4>
+              </div>
+              <div
+                class="panel-collapse collapse"
+                id="question2"
+                style="height: 0px"
+              >
+                <div class="panel-body">
+                  <div class="content" style="display: block">
+                    <p>
+                      Để nhận hóa đơn thu phí bảo hiểm, khách hàng đăng ký thông
+                      tin hòm thư điện tử và cần thực hiện các thao tác sau:<br />
+                      1. Truy cập vào Cổng thông tin khách hàng tại địa chỉ :
+                    </p>
+                    <p>
+                      &nbsp; &nbsp; &nbsp; &nbsp;<a
+                        href="https://haludoitac.bizwebvietnam.net/faqs#"
+                        >http://haludoitac.bizwebvietnam.net</a
+                      >
+                    </p>
+                    <p>
+                      2. Đăng nhập bằng tài khoản và mật khẩu được gửi vào
+                      e-mail của Quý khách hàng. Quý khách đổi mật khẩu cho lần
+                      đăng nhập đầu tiên. Trường hợp Quý khách chưa đăng ký địa
+                      chỉ e-mail thì Quý khách cần bổ sung thông tin e-mail vào
+                      Mẫu đăng ký thông tin và gửi về hòm
+                      thư&nbsp;<strong>halutheme@gmail.com</strong>&nbsp;hoặc
+                      liên hệ với các Trung tâm Dịch vụ Khách hàng của Halu để
+                      được hướng dẫn.&nbsp;
+                    </p>
+                    <p>
+                      3. Sau khi đăng nhập, Quý khách có thể tra cứu HĐĐT cần
+                      xem. Quý khách hàng có thể tải HĐĐT về máy tính để lưu
+                      giữ.<br />
+                      Nếu cần giải đáp thắc mắc hoặc hỗ trợ liên quan đến HĐĐT
+                      ,Quý khách vui lòng liên hệ với chúng tôi theo Tổng đài
+                      chăm sóc khách hàng&nbsp;<strong>1900 633369</strong>,
+                      email:&nbsp;<strong>halutheme@gmail.com</strong>,website:
+                      http://haludoitac.bizwebvietnam.net để được hướng dẫn hoặc
+                      đến trực tiếp các Trung tâm Dịch vụ Khách hàng của Halu để
+                      được phục vụ
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-6 col-lg-4 item-wrap">
-              <div class="item">
-                <h2 class="title-sp">
-                  <a href="/faqs.html" target="_blank">CÂU HỎI THƯỜNG GẶP</a>
-                </h2>
-                <div class="desc">
-                  <p>Tham khảo các câu hỏi thường gặp</p>
-                </div>
-                <div class="cate-img">
-                  <img
-                    data-thumb="original"
-                    original-height="120"
-                    original-width="120"
-                    src="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/images_ho_tro2.png?1705464728996"
-                  />
-                </div>
-                <div class="btn-viewmore flex flex-wrap flex-content-center">
-                  <a href="/faqs.html" target="_blank" title="Tìm hiểu thêm"
-                    >Tìm hiểu thêm</a
+            <div class="panel panel-default">
+              <div
+                class="panel-heading accordion-toggle question-toggle collapsed"
+                data-parent="#faqAccordion"
+                data-target="#question3"
+                data-toggle="collapse"
+              >
+                <h4 class="panel-title">
+                  <a class="ing"
+                    >Nếu muốn đăng ký thêm thông tin hòm thư điện tử (email) để
+                    nhận hóa đơn thì liên hệ với ai?</a
                   >
+                </h4>
+              </div>
+              <div
+                class="panel-collapse collapse"
+                id="question3"
+                style="height: 0px"
+              >
+                <div class="panel-body">
+                  <div class="content" style="display: block">
+                    <p>
+                      Quý khách vui lòng liên hệ với chúng tôi theo Tổng đài
+                      chăm sóc khách hàng 1<strong>900 633369</strong>,
+                      email:&nbsp;<strong>halutheme@gmail.com</strong>&nbsp;,website:
+                      http://haludoitac.bizwebvietnam.net để được hướng dẫn hoặc
+                      đến trực tiếp các Trung tâm Dịch vụ Khách hàng của Halu để
+                      được phục vụ.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-6 col-lg-4 item-wrap">
-              <div class="item">
-                <h2 class="title-sp">
-                  <a href="/dong-phi-bao-hiem.html" target="_blank"
-                    >ĐÓNG PHÍ BẢO HIỂM</a
-                  >
-                </h2>
-                <div class="desc">
-                  <p>Tham khải thông tin về phí bảo hiểm</p>
+            <div class="panel panel-default">
+              <div
+                class="panel-heading accordion-toggle question-toggle collapsed"
+                data-parent="#faqAccordion"
+                data-target="#question4"
+                data-toggle="collapse"
+              >
+                <h4 class="panel-title">
+                  <a class="ing">Làm thế nào để tham gia bảo hiểm với Halu?</a>
+                </h4>
+              </div>
+              <div
+                class="panel-collapse collapse"
+                id="question4"
+                style="height: 0px"
+              >
+                <div class="panel-body">
+                  <div class="content" style="display: block">
+                    <p>
+                      Quý khách vui lòng liên hệ Đường dây nóng (024) 3724 6699
+                      để được cung cấp thông tin về sản phẩm, hướng dẫn thủ tục
+                      yêu cầu bảo hiểm và được giới thiệu đến đội ngũ Nhân viên
+                      tư vấn của chúng tôi, hoặc đến trực tiếp Văn phòng giao
+                      dịch/Chi nhánh Vietinbank gần nhất để làm thủ tục yêu cầu
+                      bảo hiểm nhân thọ với Halu.
+                    </p>
+                  </div>
                 </div>
-                <div class="cate-img">
-                  <img
-                    data-thumb="original"
-                    original-height="120"
-                    original-width="120"
-                    src="//bizweb.dktcdn.net/100/347/311/themes/762254/assets/images_ho_tro3.png?1705464728996"
-                  />
-                </div>
-                <div class="btn-viewmore flex flex-wrap flex-content-center">
-                  <a
-                    href="/dong-phi-bao-hiem.html"
-                    target="_blank"
-                    title="Tìm hiểu thêm"
-                    >Tìm hiểu thêm</a
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div
+                class="panel-heading accordion-toggle question-toggle collapsed"
+                data-parent="#faqAccordion"
+                data-target="#question5"
+                data-toggle="collapse"
+              >
+                <h4 class="panel-title">
+                  <a class="ing"
+                    >Tôi muốn tham gia bảo hiểm với Halu, hồ sơ yêu cầu bảo hiểm
+                    của tôi cần có những chứng từ gì?</a
                   >
+                </h4>
+              </div>
+              <div
+                class="panel-collapse collapse"
+                id="question5"
+                style="height: 0px"
+              >
+                <div class="panel-body">
+                  <div class="content" style="display: block">
+                    <p>
+                      Hồ sơ yêu cầu bảo hiểm với Halu bao gồm những chứng từ
+                      sau: - Giấy yêu cầu bảo hiểm (cá nhân/tổ chức); - Bản copy
+                      Giấy tờ tuỳ thân của Bên mua bảo hiểm, Người được bảo
+                      hiểm, Người thụ hưởng (CMND/Giấy khai sinh/Hộ chiếu…); -
+                      Bảng minh họa Hợp đồng bảo hiểm; - Báo cáo của Nhân viên
+                      tư vấn; - Bản copy liên 1 của Giấy nộp tiền; - Giấy tờ
+                      khác (nếu có): + Đề nghị bổ sung ngày/tháng sinh: Nếu
+                      khách hàng không có ngày và/hoặc tháng sinh trong các loại
+                      giấy tờ tuỳ thân được chấp nhận. + Giấy ra viện, Giấy
+                      chứng nhận phẫu thuật, Hồ sơ khám định kỳ, Sổ y bạ, Phiếu
+                      xét nghiệm…: Nếu khách hàng có tiền sử phẫu thuật, nằm
+                      viện, điều trị bệnh …
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div
+                class="panel-heading accordion-toggle question-toggle collapsed"
+                data-parent="#faqAccordion"
+                data-target="#question6"
+                data-toggle="collapse"
+              >
+                <h4 class="panel-title">
+                  <a class="ing"
+                    >Công ty tôi muốn tham gia bảo hiểm cho nhân viên, tôi (đại
+                    diện công ty) chỉ cần kê khai Giấy yêu cầu bảo hiểm dành cho
+                    Bên mua bảo hiểm là tổ chức đúng không?</a
+                  >
+                </h4>
+              </div>
+              <div
+                class="panel-collapse collapse"
+                id="question6"
+                style="height: 0px"
+              >
+                <div class="panel-body">
+                  <div class="content" style="display: block">
+                    <p>
+                      Trường hợp Bên mua bảo hiểm là tổ chức, Quý khách vui lòng
+                      kê khai một bản Giấy yêu cầu bảo hiểm dành cho Bên mua bảo
+                      hiểm là tổ chức chung cho tất cả các trường hợp yêu cầu
+                      tham gia bảo hiểm ở cùng một thời điểm, không phụ thuộc
+                      vào số lượng Người được bảo hiểm. Từng cá nhân Người được
+                      bảo hiểm vẫn phải kê khai Giấy yêu cầu bảo hiểm tương ứng.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div
+                class="panel-heading accordion-toggle question-toggle collapsed"
+                data-parent="#faqAccordion"
+                data-target="#question7"
+                data-toggle="collapse"
+              >
+                <h4 class="panel-title">
+                  <a class="ing"
+                    >Giải thích cách tính tuổi tham gia bảo hiểm của Halu?</a
+                  >
+                </h4>
+              </div>
+              <div
+                class="panel-collapse collapse"
+                id="question7"
+                style="height: 0px"
+              >
+                <div class="panel-body">
+                  <div class="content" style="display: block">
+                    <p>
+                      Tuổi của Người được bảo hiểm là tuổi tính theo ngày sinh
+                      nhật vừa qua so với ngày Hợp đồng phát sinh hiệu lực. Ví
+                      dụ: Khách hàng có ngày sinh 01/11/1984 tham gia bảo hiểm
+                      với Halu vào ngày 01/09/2011 thì ngày sinh nhật vừa qua
+                      của khách hàng là 01/11/2010 và như vậy, tuổi khách hàng
+                      khi tham gia sẽ là 26 tuổi. Cũng khách hàng đó nếu tham
+                      gia bảo hiểm ngày 01/12/2011 thì ngày sinh nhật vừa qua
+                      của khách hàng là 01/11/2011 và như vậy, tuổi tham gia sẽ
+                      là 27 tuổi.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div
+                class="panel-heading accordion-toggle question-toggle collapsed"
+                data-parent="#faqAccordion"
+                data-target="#question8"
+                data-toggle="collapse"
+              >
+                <h4 class="panel-title">
+                  <a class="ing"
+                    >Nếu mất bản gốc của bộ hợp đồng bảo hiểm, tôi có được cấp
+                    lại hay không?</a
+                  >
+                </h4>
+              </div>
+              <div
+                class="panel-collapse collapse"
+                id="question8"
+                style="height: 0px"
+              >
+                <div class="panel-body">
+                  <div class="content" style="display: block">
+                    <p>
+                      Trường hợp mất bộ hợp đồng gốc, chúng tôi sẽ cấp lại Giấy
+                      chứng nhận bảo hiểm nhân thọ cho Quý khách, các văn bản
+                      khác (như Điều khoản bảo hiểm nhân thọ, bản sao Giấy yêu
+                      cầu bảo hiểm…) không được cấp lại. Quý khách có thể thông
+                      báo với Nhân viên tư vấn để được hướng dẫn thủ tục yêu cầu
+                      cấp lại Giấy chứng nhận bảo hiểm nhân thọ hoặc hoàn tất
+                      mẫu Đơn xin cấp lại giấy chứng nhận bảo hiểm nhân thọ và
+                      gửi về Halu theo địa chỉ: Tầng 13, Tòa nhà Mipec, 229 Tây
+                      Sơn, Quận Đống Đa, TP Hà Nội.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -593,7 +787,6 @@
               height="1em"
               viewBox="0 0 512 512"
             >
-              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <path
                 d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"
               ></path>
@@ -609,7 +802,6 @@
               height="1em"
               viewBox="0 0 512 512"
             >
-              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <path
                 d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"
               ></path>
@@ -625,7 +817,6 @@
               height="1em"
               viewBox="0 0 512 512"
             >
-              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <path
                 d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"
               ></path>
@@ -641,7 +832,6 @@
               height="1em"
               viewBox="0 0 512 512"
             >
-              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <path
                 d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"
               ></path>
@@ -657,7 +847,6 @@
               height="1em"
               viewBox="0 0 512 512"
             >
-              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <path
                 d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"
               ></path>
@@ -804,6 +993,7 @@
             >
               <input
                 type="email"
+                value=""
                 placeholder="Email của bạn"
                 name="EMAIL"
                 id="mail"
@@ -932,5 +1122,6 @@
     <script src="assets/js/loading.js" type="text/javascript"></script>
     <script src="assets/js/plugin-date.js" type="text/javascript"></script>
     <script src="assets/js/main.js" type="text/javascript"></script>
+    <script src="assets/js/data.js" type="text/javascript"></script>
   </body>
 </html>
