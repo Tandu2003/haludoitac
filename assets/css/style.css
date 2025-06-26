@@ -25,7 +25,7 @@
   white-space: nowrap;
   word-wrap: normal;
   direction: ltr;
-  -webkit-font-feature-settings: 'liga';
+  -font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
 .title-text h2 {
@@ -53,8 +53,7 @@
   margin-bottom: 30px !important;
 }
 .bread-crumb {
-  background: url('//bizweb.dktcdn.net/100/347/311/themes/762254/assets/bg-breadcrum.jpg?1705464602211')
-    no-repeat center;
+  background: url('../img/bg-breadcrum.png') no-repeat center;
   background-size: cover;
 }
 .iFrameMap iframe {
@@ -1994,12 +1993,12 @@ span.wrp.effect-2 img {
   font-size: 0;
 }
 .address-title button.btn-edit {
-  background-image: url(//bizweb.dktcdn.net/100/347/311/themes/762254/assets/btn-edit.png?1705464602211);
+  background-image: url(../img/btn-edit.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .address-title button.btn-delete {
-  background-image: url(//bizweb.dktcdn.net/100/347/311/themes/762254/assets/btn-delete.png?1705464602211);
+  background-image: url(../img/btn-delete.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -2431,8 +2430,7 @@ div#isp_search_result_page_container form {
 }
 .footer-map__title {
   margin-bottom: 20px;
-  background: url(//bizweb.dktcdn.net/100/347/311/themes/762254/assets/footer_map_icon.png?1705464602211)
-    no-repeat 0% 4px;
+  background: url('../img/footer_map_icon.png') no-repeat 0% 4px;
   padding-left: 50px;
 }
 .footer-map__title h2 {
@@ -6459,12 +6457,11 @@ footer .list-menu.infomation li .fa-map-marker {
   opacity: 0.7;
 }
 footer:before {
-  background: url(//bizweb.dktcdn.net/100/347/311/themes/762254/assets/bg-line.png?1705464602211)
-    no-repeat scroll center;
+  background: url('../img/bg-line.png') no-repeat scroll center;
 }
 .divider {
-  -webkit-mask-image: url(//bizweb.dktcdn.net/100/347/311/themes/762254/assets/bg-svg.svg?1705464602211);
-  mask-image: url(//bizweb.dktcdn.net/100/347/311/themes/762254/assets/bg-svg.svg?1705464602211);
+  -webkit-mask-image: url('../img/bg-svg.svg');
+  mask-image: url('../img/bg-svg.svg');
   mask-size: 100% 100%;
 }
 h1,

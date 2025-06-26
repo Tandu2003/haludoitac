@@ -7378,7 +7378,7 @@ button.close {
 */
 @font-face {
   font-family: 'FontAwesome';
-  src: url(//bizweb.dktcdn.net/100/347/311/themes/762254/assets/fontawesome-webfont.woff?1705464602211);
+  src: url(../font/fontawesome-webfont.woff);
   font-display: swap;
   font-weight: normal;
   font-style: normal;
@@ -10952,7 +10952,7 @@ select {
   -moz-appearance: none;
   appearance: none;
   background-position: right center;
-  background-image: url('//bizweb.dktcdn.net/100/347/311/themes/762254/assets/ico-select.png?1705464602211');
+  background-image: url('../img/ico-select.png');
   background-repeat: no-repeat;
   background-position: right 10px center;
   background-color: #fff !important;
